@@ -1,0 +1,70 @@
+LogRecord.Timestamp:               2023-08-30T19:34:26.0095855Z
+LogRecord.CategoryName:            Microsoft.Hosting.Lifetime
+LogRecord.LogLevel:                Information
+LogRecord.Body:                    Now listening on: {address}
+LogRecord.Attributes (Key:Value):
+    address: https://localhost:7099
+    OriginalFormat (a.k.a Body): Now listening on: {address}
+LogRecord.EventId:                 14
+LogRecord.EventName:               ListeningOnAddress
+
+Resource associated with LogRecord:
+telemetry.auto.version: 1.0.0-rc.2
+telemetry.sdk.name: opentelemetry
+telemetry.sdk.language: dotnet
+telemetry.sdk.version: 1.5.1
+service.name: otel-demo-app-dotnet-6
+service.version: 1.0.0.0
+
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: https://localhost:7099
+LogRecord.Timestamp:               2023-08-30T19:34:26.0657412Z
+LogRecord.CategoryName:            Microsoft.Hosting.Lifetime
+LogRecord.LogLevel:                Information
+LogRecord.Body:                    Application started. Press Ctrl+C to shut down.
+LogRecord.Attributes (Key:Value):
+    OriginalFormat (a.k.a Body): Application started. Press Ctrl+C to shut down.
+
+Resource associated with LogRecord:
+telemetry.auto.version: 1.0.0-rc.2
+telemetry.sdk.name: opentelemetry
+telemetry.sdk.language: dotnet
+telemetry.sdk.version: 1.5.1
+service.name: otel-demo-app-dotnet-6
+service.version: 1.0.0.0
+
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+LogRecord.Timestamp:               2023-08-30T19:34:26.0769137Z
+LogRecord.CategoryName:            Microsoft.Hosting.Lifetime
+LogRecord.LogLevel:                Information
+LogRecord.Body:                    Hosting environment: {envName}
+LogRecord.Attributes (Key:Value):
+    envName: Development
+    OriginalFormat (a.k.a Body): Hosting environment: {envName}
+
+Resource associated with LogRecord:
+telemetry.auto.version: 1.0.0-rc.2
+telemetry.sdk.name: opentelemetry
+telemetry.sdk.language: dotnet
+telemetry.sdk.version: 1.5.1
+service.name: otel-demo-app-dotnet-6
+service.version: 1.0.0.0
+
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+LogRecord.Timestamp:               2023-08-30T19:34:26.0822132Z
+LogRecord.CategoryName:            Microsoft.Hosting.Lifetime
+LogRecord.LogLevel:                Information
+LogRecord.Body:                    Content root path: {contentRoot}
+LogRecord.Attributes (Key:Value):
+    contentRoot: C:\tmp\github\opentelemetry-dotnet-instrumentation\issue\Dotnet6AutoInstrumentationIssueExample\
+    OriginalFormat (a.k.a Body): Content root path: {contentRoot}
+
+Resource associated with LogRecord:
+telemetry.auto.version: 1.0.0-rc.2
+telemetry.sdk.name: opentelemetry
+telemetry.sdk.language: dotnet
+telemetry.sdk.version: 1.5.1
+service.name: otel-demo-app-dotnet-6
+service.version: 1.0.0.0

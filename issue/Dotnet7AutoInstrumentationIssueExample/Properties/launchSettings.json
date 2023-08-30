@@ -1,0 +1,47 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:14190",
+      "sslPort": 44308
+    }
+  },
+  "profiles": {
+    "AutoInstrumentationIssueExample": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "weatherforecast",
+      "applicationUrl": "https://localhost:7099",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "CORECLR_ENABLE_PROFILING": "1",
+        "CORECLR_PROFILER": "{918728DD-259F-4A6A-AC2B-B85E1B658318}",
+        "CORECLR_PROFILER_PATH_32": "C:/tmp/github/opentelemetry-dotnet-instrumentation/issue/otel-auto-instrumentation-1.0.0-rc2/win-x86/OpenTelemetry.AutoInstrumentation.Native.dll",
+        "CORECLR_PROFILER_PATH_64": "C:/tmp/github/opentelemetry-dotnet-instrumentation/issue/otel-auto-instrumentation-1.0.0-rc2/win-x64/OpenTelemetry.AutoInstrumentation.Native.dll",
+        "DOTNET_ADDITIONAL_DEPS": "C:/tmp/github/opentelemetry-dotnet-instrumentation/issue/otel-auto-instrumentation-1.0.0-rc2/AdditionalDeps",
+        "DOTNET_SHARED_STORE": "C:/tmp/github/opentelemetry-dotnet-instrumentation/issue/otel-auto-instrumentation-1.0.0-rc2/store",
+        "DOTNET_STARTUP_HOOKS": "C:/tmp/github/opentelemetry-dotnet-instrumentation/issue/otel-auto-instrumentation-1.0.0-rc2/net/OpenTelemetry.AutoInstrumentation.StartupHook.dll",
+        "OTEL_DOTNET_AUTO_HOME": "C:/tmp/github/opentelemetry-dotnet-instrumentation/issue/otel-auto-instrumentation-1.0.0-rc2",
+        "OTEL_DOTNET_AUTO_LOGS_CONSOLE_EXPORTER_ENABLED": "true",
+        "OTEL_DOTNET_AUTO_METRICS_CONSOLE_EXPORTER_ENABLED": "false",
+        "OTEL_DOTNET_AUTO_TRACES_CONSOLE_EXPORTER_ENABLED": "false",
+        "OTEL_DOTNET_AUTO_INSTRUMENTATION_ENABLED": "true",
+        "OTEL_SERVICE_NAME": "otel-demo-app-dotnet-7",
+        "OTEL_RESOURCE_ATTRIBUTES": "deployment.environment=productionservice.version=1.0.0.0,service.version=1.0.0.0",
+        "OTEL_EXPORTER_OTLP_ENDPOINT": "http://localhost:4317",
+        "OTEL_EXPORTER_OTLP_PROTOCOL": "grpc"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "weatherforecast",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

@@ -1,0 +1,78 @@
+[
+  {
+    "FileName": "OpenTelemetry.Exporter.Console",
+    "FileVersion": "1.5.1.929"
+  },
+  {
+    "FileName": "OpenTelemetry.Exporter.OpenTelemetryProtocol",
+    "FileVersion": "1.5.1.929"
+  },
+  {
+    "FileName": "OpenTelemetry.Exporter.OpenTelemetryProtocol.Logs",
+    "FileVersion": "1.5.0.895"
+  },
+  {
+    "FileName": "OpenTelemetry.Exporter.Prometheus.HttpListener",
+    "FileVersion": "1.5.0.895"
+  },
+  {
+    "FileName": "OpenTelemetry.Exporter.Zipkin",
+    "FileVersion": "1.5.1.929"
+  },
+  {
+    "FileName": "OpenTelemetry.Extensions.Propagators",
+    "FileVersion": "1.5.1.929"
+  },
+  {
+    "FileName": "OpenTelemetry.Instrumentation.AspNetCore",
+    "FileVersion": "1.5.1.957"
+  },
+  {
+    "FileName": "OpenTelemetry.Instrumentation.EntityFrameworkCore",
+    "FileVersion": "1.0.0.7"
+  },
+  {
+    "FileName": "OpenTelemetry.Instrumentation.GrpcNetClient",
+    "FileVersion": "1.5.1.957"
+  },
+  {
+    "FileName": "OpenTelemetry.Instrumentation.Http",
+    "FileVersion": "1.5.1.957"
+  },
+  {
+    "FileName": "OpenTelemetry.Instrumentation.MySqlData",
+    "FileVersion": "1.0.0.7"
+  },
+  {
+    "FileName": "OpenTelemetry.Instrumentation.Process",
+    "FileVersion": "0.5.0.3"
+  },
+  {
+    "FileName": "OpenTelemetry.Instrumentation.Quartz",
+    "FileVersion": "1.0.0.3"
+  },
+  {
+    "FileName": "OpenTelemetry.Instrumentation.Runtime",
+    "FileVersion": "1.5.0.0"
+  },
+  {
+    "FileName": "OpenTelemetry.Instrumentation.SqlClient",
+    "FileVersion": "1.5.1.957"
+  },
+  {
+    "FileName": "OpenTelemetry.Instrumentation.StackExchangeRedis",
+    "FileVersion": "1.0.0.10"
+  },
+  {
+    "FileName": "OpenTelemetry.ResourceDetectors.Azure",
+    "FileVersion": "1.0.0.2"
+  },
+  {
+    "FileName": "OpenTelemetry.ResourceDetectors.Container",
+    "FileVersion": "1.0.0.4"
+  },
+  {
+    "FileName": "OpenTelemetry.Shims.OpenTracing",
+    "FileVersion": "1.5.0.908"
+  }
+]
